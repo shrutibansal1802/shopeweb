@@ -1,0 +1,144 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:700");
+:root {
+  --bg1:  rgb(223, 217, 217);
+  --color-dark: #735D78;
+  --color-light: #282828;
+  --black-light: #282828;
+}
+$mid : 786px;
+$small : 450px;
+
+* {
+  margin: 0px;
+  color: var(--black-light);
+  overflow-x: hidden;
+  font-family: 'Poppins' ,sans-serif;
+}
+
+body {
+  position: relative;
+  background-color: var(--bg1);
+  /* border: solid 10px var(--color-light); */
+  background-image: url("./../imgs/white_texture.png");
+}
+
+nav{
+    min-height: 80px;
+    
+}
+.topnav {
+  height: 80px;
+  width: 100%;
+  content: " ";
+//   border: solid 1px #111;
+
+background-image: url("./../imgs/white_texture.png");
+  position: fixed;
+}
+.logo{
+    margin: 25px 40px ;
+    font-size: larger;
+}
+
+.navbar {
+  list-style: none;
+  font-size: smaller;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  z-index: 100;
+  padding: 4px 10px;
+  margin: 5px;
+  margin-right: 20px;
+  font-size: smaller;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: 'Poppins', sans-serif;
+  
+//   border: solid 1px #111;
+}
+.navbar >li{
+  display: inline-block;
+//   margin-right: 5%;
+  border-right: #111 solid 1px;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  font-family: "Space Mono", monospace;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: transparent;
+  border: 0;
+  overflow-x: hidden;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 1px;
+  width: 0;
+  background: #111;
+  -webkit-transition: width 0.4s ease;
+  transition: width 0.4s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  color: rgba(17, 17, 17, 0.75);
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+button:hover:after {
+  width: 100%;
+  -webkit-transition: width 0.4s ease;
+  transition: width 0.4s ease;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button a {
+  text-decoration: none;
+}
+
+.category{
+  margin-top: 50px;
+    .cate_name{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        letter-spacing: 1px;
+        font-size: large;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .banners{
+        display: flex;
+        margin: 5px 30px ;
+
+        img{
+            margin: 5px;
+            border: #111 solid 2px;
+        }
+    
+    @media(max-width: $mid) {
+        display: flex;
+            flex-direction: column;
+            img{
+              margin: 10px;
+            }
+        }
+    }
+   
+}
+

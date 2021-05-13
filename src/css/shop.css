@@ -1,0 +1,34 @@
+.display {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.display .singledisplay {
+  margin: auto;
+  padding: 2%;
+  width: 25%;
+  height: 420px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.display .singledisplay .image {
+  width: 100%;
+  height: 370px;
+}
+
+@media (max-width: 800px) {
+  .display .singledisplay {
+    width: 45%;
+    height: 370px;
+  }
+  .display .singledisplay .image {
+    height: 300px;
+  }
+}
+/*# sourceMappingURL=shop.css.map */
