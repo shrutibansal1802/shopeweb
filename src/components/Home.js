@@ -13,17 +13,17 @@ export default function Home() {
       <div className="category">
         <h5 className="cate_name">Top Categories</h5>
         <div className="banners">
-          <img src={banner2} />
-          <img src={banner2} />
-          <img src={banner2} />
+          <img src={banner2} alt="banner" />
+          <img src={banner2}  alt='banner '/>
+          <img src={banner2} alt="banner"/>
         </div>
       </div>
       <div className="category">
         <h5 className="cate_name">New Arrivals</h5>
         <div className="banners">
-          <img src={banner2} />
-          <img src={banner2} />
-          <img src={banner2} />
+          <img src={banner2} alt="banner" />
+          <img src={banner2}  alt='banner '/>
+          <img src={banner2} alt="banner"/>
         </div>
       </div>
     </div>
