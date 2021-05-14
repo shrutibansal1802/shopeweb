@@ -68,7 +68,7 @@ button {
   position: relative;
   display: inline-block;
   margin: 0;
-  font-family: "Space Mono", monospace;
+  // font-family: "Space Mono", monospace;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -108,9 +108,7 @@ button:focus {
   outline: 0;
 }
 
-button a {
-  text-decoration: none;
-}
+
 
 .category{
   margin-top: 50px;

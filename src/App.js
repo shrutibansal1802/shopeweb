@@ -19,23 +19,19 @@ function App() {
         <ul className="navbar">
           <li>
             <Link to='/'>
-            <button>
-              <a href="">HOME</a>
-            </button>
+            <button> HOME</button>
             </Link>
           
           </li>
           <li>
             <Link to='/shop'>
-            <button>
-              <a href="">SHOP</a>
+            <button>SHOP
             </button>
             </Link>
           </li>
           <li>
             <Link to='/about'>
-            <button>
-              <a href="">ABOUT</a>
+            <button>ABOUT
             </button>
             </Link>
           </li>

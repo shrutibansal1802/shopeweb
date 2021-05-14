@@ -62,7 +62,6 @@ button {
   position: relative;
   display: inline-block;
   margin: 0;
-  font-family: "Space Mono", monospace;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -100,10 +99,6 @@ button:hover:after {
 
 button:focus {
   outline: 0;
-}
-
-button a {
-  text-decoration: none;
 }
 
 .category {

@@ -11,8 +11,8 @@ const [productarr,setProductarr] = useState(products);
            {
                productarr.map(product=>{
                    return(
-                       <div className='singledisplay'>
-                           <Singleproduct key={product.id} product={product}/>
+                       <div key={product.id} className='singledisplay'>
+                           <Singleproduct  product={product}/>
                        </div>
                    )
                })
