@@ -1,14 +1,14 @@
-import React,{useState} from "react";
+import React from "react";
 import Slider from "./Slider";
 import banner2 from "./../imgs/banner2.jpg";
 import {bannerData} from './../data'
 
 export default function Home() {
-    const [banner, setbanner] = useState(bannerData);
+    // const [banner, setbanner] = useState(bannerData);
 
   return (
     <div>
-      <Slider bannerarray={banner} />
+      <Slider bannerarray={bannerData} />
 
       <div className="category">
         <h5 className="cate_name">Top Categories</h5>

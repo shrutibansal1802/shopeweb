@@ -3,7 +3,7 @@ import React from "react";
 import {BrowserRouter as Router, Switch,Route, Link} from 'react-router-dom'
 import Home from "./components/Home";
 import Shop from "./components/Shop";
-import About from "./components/About"
+import Cart from "./components/Cart"
 
 function App() {
 
@@ -30,8 +30,8 @@ function App() {
             </Link>
           </li>
           <li>
-            <Link to='/about'>
-            <button>ABOUT
+            <Link to='/cart'>
+            <button>CART
             </button>
             </Link>
           </li>
@@ -40,7 +40,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home}/>
         <Route path='/shop' component={Shop}/>
-        <Route path="/about" component={About}/>
+        <Route path="/cart" component={Cart}/>
       </Switch>
     </div>
     </Router>

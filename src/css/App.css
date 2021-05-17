@@ -43,7 +43,7 @@ nav {
   position: fixed;
   right: 0;
   top: 10px;
-  z-index: 100;
+  z-index: 100 !important;
   padding: 4px 10px;
   margin: 5px;
   margin-right: 20px;

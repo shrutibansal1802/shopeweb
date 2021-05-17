@@ -9,7 +9,7 @@ export default function Slider({bannerarray}) {
   // }
 
   const nextIndex=()=>{
-    setIndex(index== bannerarray.length-1? 0 : index+1)
+    setIndex(index=== bannerarray.length-1? 0 : index+1)
   }
   
   useEffect(()=>{
@@ -19,7 +19,7 @@ export default function Slider({bannerarray}) {
  
   return (
     <div className='carousal'>
-      <img className='banner' src={bannerarray[index]}/>
+      <img className='banner' alt="banner" src={bannerarray[index]}/>
     
     </div>
   )

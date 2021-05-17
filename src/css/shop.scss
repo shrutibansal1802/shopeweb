@@ -21,6 +21,23 @@ $small : 450px;
         height: 370px;
     }
 
+    .productdetails{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      icon{
+        transition: transform 0.3s;
+        width: 25px;
+        height: 100%;
+      }
+
+      icon:hover {
+        cursor: pointer;
+        transform: scale(1.3);
+      }
+    }
+
     @media(max-width: $mid){
         width: 45%;
         height: 370px;
@@ -31,3 +48,5 @@ $small : 450px;
     }
   }
 }
+
+
