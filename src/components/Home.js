@@ -4,7 +4,6 @@ import banner2 from "./../imgs/banner2.jpg";
 import {bannerData} from './../data'
 
 export default function Home() {
-    // const [banner, setbanner] = useState(bannerData);
 
   return (
     <div>
