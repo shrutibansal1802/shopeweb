@@ -68,11 +68,27 @@ button {
   background: transparent;
   border: 0;
   overflow-x: hidden;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  overflow-x: hidden;
   -webkit-transition: color 0.5s ease;
   transition: color 0.5s ease;
 }
 
-button:after {
+.btn:after {
   content: '';
   position: absolute;
   top: 50%;
@@ -84,20 +100,20 @@ button:after {
   transition: width 0.4s ease;
 }
 
-button:hover {
+.btn:hover {
   cursor: pointer;
   color: rgba(17, 17, 17, 0.75);
   -webkit-transition: color 0.5s ease;
   transition: color 0.5s ease;
 }
 
-button:hover:after {
+.btn:hover:after {
   width: 100%;
   -webkit-transition: width 0.4s ease;
   transition: width 0.4s ease;
 }
 
-button:focus {
+.btn:focus {
   outline: 0;
 }
 

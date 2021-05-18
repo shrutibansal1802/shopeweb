@@ -59,4 +59,48 @@
     height: 300px;
   }
 }
+
+.modal {
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  height: 50%px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal img {
+  height: 300px;
+  margin-right: 20px;
+}
+
+.modal .modaldetails {
+  font-size: small;
+}
+
+.modal .modaldetails p {
+  font-family: monospace;
+  margin: 5px 0px 20px;
+}
+
+.modal .modaldetails ul > li {
+  list-style: none;
+  font-family: monospace;
+}
+
+.modal .modaldetails button {
+  position: absolute;
+  bottom: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: black solid 1px;
+}
+
+.modal .modaldetails button :hover:after {
+  width: 0%;
+  -webkit-transition: width 0s ease;
+  transition: width 0s ease;
+}
 /*# sourceMappingURL=shop.css.map */

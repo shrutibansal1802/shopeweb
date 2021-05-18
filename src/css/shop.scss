@@ -49,4 +49,39 @@ $small : 450px;
   }
 }
 
+.modal{
+  width: 60%;
+  margin: auto;
+  padding: 10px ;
+  height: 50%px;
+  display: flex;
+
+  img{
+      height: 300px;
+      margin-right: 20px;
+  }
+  .modaldetails{
+    font-size: small;
+    p{
+      font-family:monospace;
+      margin: 5px 0px 20px;
+    }
+    ul >li{
+      list-style: none;
+      font-family: monospace;
+    }
+    button{
+      position: absolute;
+      bottom: 20px;
+      align-items: center;
+      border: black solid 1px;
+
+      :hover:after {
+        width: 0%;
+        transition: width 0s ease;
+      }
+    }
+  }
+
+}
 
